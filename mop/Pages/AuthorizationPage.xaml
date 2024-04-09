@@ -9,6 +9,22 @@
       Title="AuthorizationPage">
 
     <Grid Background="AliceBlue">
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+            <TextBlock Text="authorization" 
+                   FontSize="50" 
+                   FontWeight="Bold" />
+            <StackPanel>
+                <StackPanel>
+                    <TextBlock Text="login" FontSize="40"/>
+                    
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Text="password" FontSize="40"/>
+
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
         
     </Grid>
 </Page>

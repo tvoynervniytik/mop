@@ -8,6 +8,6 @@
         Title="MainWindow" Height="1080" Width="1920">
     <Grid>
         <Frame x:Name="navFr" NavigationUIVisibility="Hidden"/>
-        <Image Source="/Images/logo.png" Width="500"/>
+        
     </Grid>
 </Window>

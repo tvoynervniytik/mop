@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -14,19 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using mop.Pages;
 
-namespace mop
+namespace mop.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для StartingPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartingPage : Page
     {
-        public MainWindow()
+        public StartingPage()
         {
             InitializeComponent();
-             navFr.NavigationService.Navigate(new StartingPage());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AuthorizationPage());
         }
     }
 }
