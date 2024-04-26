@@ -26,7 +26,7 @@ namespace mop
         public MainWindow()
         {
             InitializeComponent();
-             navFr.NavigationService.Navigate(new StartingPage());
+             navFr.NavigationService.Navigate(new AuthorizationPage());
         }
     }
 }
