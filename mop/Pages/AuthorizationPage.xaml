@@ -8,11 +8,11 @@
       d:DesignHeight="1080" d:DesignWidth="1920"
       Title="AuthorizationPage">
 
-    <Grid Background="AliceBlue">
+    <Grid Background="White">
         <StackPanel HorizontalAlignment="Center" 
                     VerticalAlignment="Center">
             <TextBlock Text="авторизация" 
-                       FontSize="50" 
+                       FontSize="70" 
                        Margin="0 0 0 15"
                        FontWeight="Bold">
                 <TextBlock.Foreground>
@@ -25,7 +25,7 @@
             </TextBlock>
             <StackPanel>
                 <StackPanel>
-                    <TextBlock Text="логин" FontSize="40"
+                    <TextBlock Text="логин" FontSize="45"
                                FontWeight="DemiBold"
                                Margin="0 0 0 15">
                         <TextBlock.Foreground>
@@ -64,7 +64,7 @@
                     </Border>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="пароль" FontSize="40"
+                    <TextBlock Text="пароль" FontSize="45"
                                FontWeight="DemiBold"
                                Margin="0 0 0 15">
                         <TextBlock.Foreground>
@@ -113,7 +113,7 @@
                     </LinearGradientBrush>
                 </Border.Background>
                 <Button Content="войти"
-                        FontSize="36"
+                        FontSize="40"
                         FontWeight="Bold"
                         Height="60"
                         Foreground="White"
@@ -121,6 +121,21 @@
                         BorderThickness="0"/>
             </Border>
         </StackPanel>
-        
+        <Image Source="/Images/Vector.png"
+               Width="800"
+                   Margin="1269,0,-149,306"/>
+        <Image Source="/Images/Vector.png"
+               Width="800"
+                   Margin="-137,308,1257,-2" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
     </Grid>
 </Page>
