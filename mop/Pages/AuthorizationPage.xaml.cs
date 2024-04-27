@@ -24,5 +24,9 @@ namespace mop.Pages
         {
             InitializeComponent();
         }
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

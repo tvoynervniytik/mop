@@ -120,6 +120,30 @@
                         Background="Transparent"
                         BorderThickness="0"/>
             </Border>
+            <StackPanel Orientation="Horizontal">
+                
+                <TextBlock FontSize="25"
+                           Text="Вы не авторизированы? ">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#C0D5B3" Offset="0"/>
+                            <GradientStop Color="#B3C9D5" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                    
+                </TextBlock>
+                <Button FontSize="25" FontWeight="Bold"
+                           Content="зарегистироваться"
+                        Background="Transparent"
+                        BorderThickness="0" Click="LoginBtn_Click">
+                    <Button.Foreground>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#B3C9D5" Offset="0"/>
+                            <GradientStop Color="#A3AEE6" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Foreground>
+                </Button> 
+            </StackPanel>
         </StackPanel>
         <Image Source="/Images/Vector.png"
                Width="800"
